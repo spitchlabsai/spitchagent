@@ -1,0 +1,42 @@
+# requirements.txt
+# Core FastAPI and web framework
+# fastapi
+# uvicorn[standard]
+# python-multipart
+python-dotenv
+
+# Document processing
+# PyPDF2
+# python-docx
+# langchain
+# langchain-text-splitters
+
+# Vector embeddings and ML
+sentence-transformers
+# torch
+# numpy
+
+# Database and Supabase
+supabase
+# psycopg2-binary
+# pgvector
+
+# LiveKit agent dependencies
+livekit-agents==1.2.7
+livekit-plugins-assemblyai==1.2.7
+livekit-plugins-google==1.2.7
+livekit-plugins-spitch==1.2.7
+livekit-plugins-silero==1.2.7
+livekit-plugins-noise-cancellation
+
+# Additional utilities
+# pydantic
+# httpx==0.24.1
+# aiofiles==23.2.1
+# pillow
+
+# Development and testing (optional)
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# black==23.11.0
+# flake8==6.1.0
